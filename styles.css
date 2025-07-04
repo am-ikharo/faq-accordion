@@ -37,3 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.answer {
+    padding-bottom: 20px;
+}
