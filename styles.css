@@ -27,3 +27,8 @@ body {
 .faq h1 {
     padding-left: 15px;
 }
+
+.wrapper {
+    margin: 25px;
+    border-bottom: solid rgb(236, 232, 232) 1px;
+}
