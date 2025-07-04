@@ -16,5 +16,9 @@ body {
     width: 30%;
     background-color: white;
     margin: 10% auto;
-    
+    border-radius: 5%;
+}
+
+.faq {
+    display: flex;
 }
