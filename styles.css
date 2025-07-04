@@ -58,4 +58,14 @@ body {
     
 }
 
+@media (max-width: 650px) {
+    .container {
+        width: 80%;
+        background-color: white;
+        margin: 20% auto;
+        border-radius: 5%;
+    }
+    
+}
+
 
