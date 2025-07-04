@@ -6,5 +6,6 @@
 
 body {
     background-image: url(./assets/images/background-pattern-desktop.svg);
-
+    background-size: 50% 100%;
+    
 }
