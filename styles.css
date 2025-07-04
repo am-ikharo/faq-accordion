@@ -11,3 +11,10 @@ body {
     background-position: top;
     background-repeat: no-repeat;
 }
+
+.container {
+    width: 30%;
+    background-color: white;
+    margin: 10% auto;
+    
+}
