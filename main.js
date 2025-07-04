@@ -5,7 +5,7 @@ getQuestionHolder.forEach((currentItem) => {
     if (currentItem.classList.contains("active")) {
       currentItem.classList.remove("active");
     } else {
-      let getAlreadyAddedActiveClasses = document.querySelectorAll("active");
+      let getAlreadyAddedActiveClasses = document.querySelectorAll(".active");
 
       getAlreadyAddedActiveClasses.forEach((currentActiveItem) => {
         currentActiveItem.classList.remove("active");
