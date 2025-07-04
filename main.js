@@ -1,9 +1,12 @@
 const getQuestionHolder = document.querySelectorAll(".question-holder");
-const getWrapper = document.querySelectorAll('.wrapper')
+const image = document.querySelectorAll('image')
+
+
 getQuestionHolder.forEach((currentItem) => {
   currentItem.addEventListener("click", (event) => {
     if (currentItem.classList.contains("active")) {
       currentItem.classList.remove("active");
+      
     } else {
       let getAlreadyAddedActiveClasses = document.querySelectorAll(".active");
 
@@ -11,6 +14,7 @@ getQuestionHolder.forEach((currentItem) => {
         currentActiveItem.classList.remove("active");
       });
       currentItem.classList.add("active");
+      
     }
   });
 });

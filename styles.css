@@ -30,6 +30,7 @@ body {
 
 .wrapper {
     margin: 25px;
+    padding-bottom: 30px;
     border-bottom: solid rgb(236, 232, 232) 1px;
 }
 
@@ -38,6 +39,23 @@ body {
     justify-content: space-between;
 }
 
+.question-holder h3 {
+    cursor: pointer;
+}
+
+.question-holder h3:hover {
+    color: hsl(292, 41%, 49%);
+}
+
 .answer {
     padding-bottom: 20px;
+    display: none;
+    color: hsl(292, 16%, 49%);
 }
+
+.question-holder.active + .answer {
+    display: block;
+    
+}
+
+
