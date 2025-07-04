@@ -21,4 +21,9 @@ body {
 
 .faq {
     display: flex;
+    padding: 25px;
+}
+
+.faq h1 {
+    padding-left: 15px;
 }
