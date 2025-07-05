@@ -1,5 +1,8 @@
 const getQuestionHolder = document.querySelectorAll(".question-holder");
-const image = document.querySelectorAll('image')
+const image1 = './assets/images/icon-plus.svg'
+const image2 = './assets/images/icon-minus.svg'
+
+
 
 
 getQuestionHolder.forEach((currentItem) => {
@@ -12,8 +15,10 @@ getQuestionHolder.forEach((currentItem) => {
 
       getAlreadyAddedActiveClasses.forEach((currentActiveItem) => {
         currentActiveItem.classList.remove("active");
+        
       });
       currentItem.classList.add("active");
+      
       
     }
   });
